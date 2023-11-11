@@ -32,7 +32,7 @@ int main() {
 	sortiraj(fniz, n, sizeof(float), compare_float);
 
 	for (int i = 0; i < n; i++) {
-		printf("%f", *(fniz + i));
+		printf(" %f", *(fniz + i));
 	}
 	printf("\n");
 

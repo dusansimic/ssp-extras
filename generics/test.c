@@ -15,5 +15,12 @@ int main() {
 	printf("%d\n", *d);
 	free(a);
 	free(c);
+
+	a = malloc(2 * sizeof(int));
+	printf("%ld, %ld\n", a, a + 1);
+	b = malloc(2 * sizeof(int));
+	printf("%ld, %ld\n", b, b + 1);
+	free(a);
+	free(b);
 	return 0;
 }
